@@ -21,7 +21,7 @@ async def start(update: Update, context: CallbackContext) -> None:
         '<широта2> <долгота2> <азимут2> <дистанция2>\n'
         '...\n'
         'Например:\n'
-        '/elevation 41.2995 69.2401 45 1000\n'
+        '/elevation \n'
         '41.2995 69.2401 45 1000\n'
         '41.2995 69.2401 45 1000'
     )
@@ -101,3 +101,5 @@ async def main():
 
 if __name__ == '__main__':
     asyncio.run(main())
+
+bot.polling(none_stop=True, interval=2)
