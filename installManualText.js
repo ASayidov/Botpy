@@ -1,10 +1,3 @@
-Google maps API: 
-AIzaSyBNOsJcoqfSRrNyz5Z0H3UsoM7oA-32rX0
-
-relFarqBot  API: 
-7691215008:AAGgkRjMnkTwevgdaPKXWXrSVFHB_vNB844
-
-
 Установка пакеты для бота
 
 sudo apt update
